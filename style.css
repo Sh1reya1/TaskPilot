@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container{
+    background-color: aquamarine;
+    padding: 40px;
+    
+    border-radius:10px;
+    box-shadow: 0 0 5px white;
+    width:400px;
+    text-align: center;
+}
+
+h1{
+    color:grey;
+    margin-bottom:30px;
+
+}
+
+#taskList li{
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    position: relative;
+
+}
+#startBtn{
+    background-color: #4acf50;
+    color:white;
+    font-size: 18px;
+    border:none;
+    padding: 10px 20px;    
+}
+
+.info{
+    color:purple;
+}
+
+#status{
+    color:#333;
+
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+#taskList li {
+    display: block;
+    color: black;
+    font-size: 16px;
+}
